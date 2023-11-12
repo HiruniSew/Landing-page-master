@@ -189,11 +189,8 @@ body {
     font-family: "Raleway", sans-serif;
     width: 450px;
     text-decoration: none;
-
     border-bottom: 1px solid transparent; /* Add a transparent underline */
     transition: color 0.3s, border-bottom-color 0.3s; /* Add transition for smooth effect */
-
-    /* Additional styles for the underline */
     text-underline-offset: 4px; /* Adjust the space between text and underline */
   }
   #underline-para:hover {
@@ -327,5 +324,70 @@ body {
     font-size: 14px;
     text-align: center;
     margin-top: 10px;
+  }
+  .flex-item2 {
+    text-align: center;
+    max-width: 250px;
+    align-items: center;
+    margin-left: 35px;
+    position: relative;
+  }
+
+  .flex-item2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 40px;
+  }
+  .flex-item2 p {
+    color: #fff;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    margin-left: 2px;
+    margin-top: 10px;
+    font-family: "Raleway", sans-serif;
+    width: 280px;
+  }
+  .flex-item2 h3 {
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 50px;
+    font-family: "Raleway", sans-serif;
+    margin-left: 30px;
+    width: 700px;
+  }
+  #underline-para {
+    text-decoration: underline; /* Add text underline */
+    text-decoration-color: white; /* Set underline color to white */
+    color: #fff;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    margin-left: 2px;
+    margin-top: 10px;
+    font-family: "Raleway", sans-serif;
+    width: 450px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent; /* Add a transparent underline */
+    transition: color 0.3s, border-bottom-color 0.3s; /* Add transition for smooth effect */
+    text-underline-offset: 4px; /* Adjust the space between text and underline */
+  }
+  #underline-para:hover {
+    color: rgb(3, 180, 224); /* Change text color on hover */
+    border-bottom-color: rgb(3, 180, 224); /* Change underline color on hover */
+    border-bottom-width: 0.5px;
+  }
+  #arrow-image {
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
   }
 }
