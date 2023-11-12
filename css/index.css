@@ -67,7 +67,8 @@ body {
   .center-para p {
     font-size: 12px;
     color: #fff;
-    font-family: "Raleway", sans-serif; /* Use Raleway font */
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5; /* Use Raleway font */
   }
 
   /*  styles for the button */
@@ -96,14 +97,16 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 5px;
-    gap: 2px;
-    align-items: center;
+    gap: 20px;
+    position: relative;
   }
 
   .flex-item {
     text-align: center;
     max-width: 300px;
     align-items: center;
+    margin-left: 55px;
+    position: relative;
   }
 
   .flex-item img {
@@ -115,17 +118,98 @@ body {
 
   .flex-item p {
     color: #fff;
-    font-size: 12px;
+    font-size: 11px;
     text-align: center;
     margin-bottom: 60px;
+    line-height: 1.5;
+    font-family: "Raleway", sans-serif;
   }
   .flex-item h6 {
     color: #fff;
     font-size: 14px;
     text-align: center;
     margin-top: 10px;
+    font-family: "Raleway", sans-serif;
+  }
+  .flex-container2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+    gap: 2px;
+    position: relative;
+  }
+
+  .flex-item2 {
+    text-align: center;
+    max-width: 350px;
+    align-items: center;
+    margin-left: 35px;
+    position: relative;
+  }
+
+  .flex-item2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  .flex-item2 p {
+    color: #fff;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    margin-left: 2px;
+    margin-top: 10px;
+    font-family: "Raleway", sans-serif;
+    width: 450px;
+  }
+  .flex-item2 h3 {
+    color: #fff;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 80px;
+    font-family: "Raleway", sans-serif;
+    margin-left: 5px;
+    width: 380px;
+  }
+  #underline-para {
+    text-decoration: underline; /* Add text underline */
+    text-decoration-color: white; /* Set underline color to white */
+    color: #fff;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    margin-left: 2px;
+    margin-top: 10px;
+    font-family: "Raleway", sans-serif;
+    width: 450px;
+    text-decoration: none;
+
+    border-bottom: 1px solid transparent; /* Add a transparent underline */
+    transition: color 0.3s, border-bottom-color 0.3s; /* Add transition for smooth effect */
+
+    /* Additional styles for the underline */
+    text-underline-offset: 4px; /* Adjust the space between text and underline */
+  }
+  #underline-para:hover {
+    color: rgb(3, 180, 224); /* Change text color on hover */
+    border-bottom-color: rgb(3, 180, 224); /* Change underline color on hover */
+    border-bottom-width: 0.5px;
+  }
+  #arrow-image {
+    margin-left: 5px; /* Add some spacing between text and arrow */
+    width: 20px; /* Set the width of the arrow image */
+    height: 20px; /* Set the height of the arrow image */
+    display: inline-block; /* Ensure proper alignment with the text */
+    vertical-align: middle; /* arrow and text one line*/
   }
 }
+
 /* Media query for Mobile view */
 @media only screen and (max-width: 600px) {
   header {
@@ -208,11 +292,40 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
     align-items: center;
-    margin-left: 140px;
+    margin-left: 120px;
     width: 130px;
   }
 
   .get-started-button:hover {
     background-color: #2980b9;
+  }
+
+  .flex-item {
+    text-align: center;
+    max-width: 300px;
+    align-items: center;
+    margin-left: 40px;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .flex-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 5px;
+  }
+  .flex-item p {
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 60px;
+    line-height: 1.5;
+  }
+  .flex-item h6 {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
   }
 }
