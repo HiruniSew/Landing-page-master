@@ -300,8 +300,9 @@ body {
   #error-message {
     color: red;
     font-size: 14px;
-    margin-top: 45px;
+    margin-top: 5px;
     align-items: center;
+    margin-right: 450px;
   }
 
   #getStartedBtn {
