@@ -197,8 +197,8 @@ body {
     text-underline-offset: 4px;
   }
   #underline-para:hover {
-    color: rgb(3, 180, 224); /* Change text color on hover */
-    border-bottom-color: rgb(3, 180, 224); /* Change underline color on hover */
+    color: rgb(3, 180, 224); /*text color on hover */
+    border-bottom-color: rgb(3, 180, 224); /* underline color on hover */
     border-bottom-width: 0.5px;
   }
   #arrow-image {
@@ -219,7 +219,7 @@ body {
     flex-direction: row;
     align-items: center;
     margin-bottom: 150px;
-    margin-left: 140px;
+    margin-left: 150px;
   }
 
   .box {
@@ -234,6 +234,61 @@ body {
     background-color: hsl(219, 30%, 18%);
     border-radius: 5px;
     padding: 10px;
+    flex-direction: column;
+  }
+  .topic-short-contain {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user-story {
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 10px;
+    line-height: 1.5;
+    margin-left: 5px;
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+    width: 300px;
+  }
+
+  .flex-container7 {
+    display: flex;
+    gap: 1px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 75px;
+  }
+  .profile-pic {
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+  }
+  .user-name-heading {
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 0px;
+    font-family: "Raleway", sans-serif;
+    width: 100px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .user-post {
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 2px;
+    font-family: "Raleway", sans-serif;
+    width: 150px;
+    margin-right: 50px;
+  }
+  .flex-container9 {
+    display: flex;
+    flex-direction: column;
   }
 
   .long-box {
@@ -295,7 +350,7 @@ body {
     width: 450px;
     height: 10px;
     border: 1px solid #ccc;
-    margin-right: 50px; /* Default border color */
+    margin-right: 50px; /*  border color */
   }
   #error-message {
     color: red;
@@ -650,8 +705,78 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 4px;
-    margin-left: 10px;
+    margin-bottom: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .box {
+    width: 320px;
+    height: 160px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .topic-short-contain {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user-story {
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 10px;
+    line-height: 1.5;
+    margin-left: 5px;
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+    width: 300px;
+  }
+
+  .flex-container7 {
+    display: flex;
+    gap: 1px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 75px;
+  }
+  .profile-pic {
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+  }
+  .user-name-heading {
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 0px;
+    font-family: "Raleway", sans-serif;
+    width: 100px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .user-post {
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 2px;
+    font-family: "Raleway", sans-serif;
+    width: 150px;
+    margin-right: 50px;
+  }
+  .flex-container9 {
+    display: flex;
+    flex-direction: column;
   }
 
   .box {
