@@ -3,17 +3,23 @@ document.getElementById("getStartedBtn").addEventListener("click", function () {
   var errorMessage = document.getElementById("error-message");
 
   if (validateEmail(email)) {
-    // Clear any previous error messages and styles
+    // Clear previous error messages and styles
     errorMessage.textContent = "";
     document.getElementById("emailInput").style.border = "2px solid #ccc";
 
-    // Proceed with your logic when the email is valid
     alert("Email is valid. Get started!");
   } else {
     // Display error message and change border color
     errorMessage.textContent = "Please enter a valid email address.";
     document.getElementById("emailInput").style.border = "2px solid red";
   }
+});
+
+// Add event listener for the "input" event on the email input field
+document.getElementById("emailInput").addEventListener("input", function () {
+  // Clear the error message and border when the user types in the email field
+  document.getElementById("error-message").textContent = "";
+  document.getElementById("emailInput").style.border = "2px solid #ccc";
 });
 
 function validateEmail(email) {
