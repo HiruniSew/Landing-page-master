@@ -3,7 +3,7 @@ document.getElementById("getStartedBtn").addEventListener("click", function () {
   var errorMessage = document.getElementById("error-message");
 
   if (validateEmail(email)) {
-    // Clear previous error messages and styles
+    // Clear previous error messages
     errorMessage.textContent = "";
     document.getElementById("emailInput").style.border = "2px solid #ccc";
 
