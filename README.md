@@ -12,3 +12,5 @@ Your users should be able to:
 Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
 ## Screenshots
+
+![Alt text](2.png) ![Alt text](1.png)
